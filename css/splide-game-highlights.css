@@ -1,0 +1,213 @@
+/* body {
+    width: 600px;
+    margin: 0 auto;
+    background: rgb(55, 39, 39);
+} */
+
+/*
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+*/
+.splide__slide img {
+    /* background-color:darkblue; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}/*for both slider and thumbnails*/
+
+
+/* .splide__slide img {
+    width: 100%;
+    height: auto;
+} */
+
+.splide__slide {
+    opacity: 0.6;
+    /* background-color:darkslategray; */
+}
+
+.splide__slide.is-active {
+    opacity: 1;
+}
+.thumbnail-carousel{
+    /* max-width: 100%; */
+    /* margin: 0 0 1em; */
+    white-space: nowrap;
+    /* background-color:green */
+    background-color:rgb(1,1,1,0.5);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%);
+    /* background-color:pink!important; */
+}
+#image-carousel{
+
+}
+#image-carousel ul{
+    position:relative;
+    /* background:brown; */
+    background-color:#1b2838;
+    background-color:rgb(1,1,1,0.5);
+    
+}
+#image-carousel li{
+    background-color:black;
+}
+#thumbnail-carousel-list{
+    background-color:none!important;
+}
+.splide__track--nav>.splide__list>.splide__slide{
+    border:1px solid rgb(0, 0, 0, 1);
+}
+.splide__track--nav>.splide__list>.splide__slide.is-active{
+    border:2px solid rgb(255, 255, 255, 0.4 );
+}
+li{
+    /* background-color:pink */
+}
+#player {
+    width: 100%;
+    height: 100%;
+    /* padding-top: 56.25%; */
+    /* aspect-ratio: 16/9; */
+}
+
+#box1 {
+    background: url(../media/img/front-1-game.png);
+    max-width: 558px;
+    max-height:558px;
+    min-width:0px;
+    min-height:0px;
+    /* width: unset; */
+    display: table;
+}
+
+h4 {
+        color: #ffffff;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        font-size: 38px;
+        text-align: center;
+        font-weight: normal;
+        background: rgba(0, 0, 0, 0.3);
+        display: table-cell;
+        vertical-align: middle
+}
+
+
+/*558*/
+
+#mainHeaderWrapper{
+    position: relative;
+    background: no-repeat url(../media/img/front-4-newsletter.png) 50% / 100%;
+    background-color: red;
+}
+#mainHeaderWrapper > img{
+    vertical-align: top;
+    max-width: 100%; /* max width */
+    min-width:0px;
+    opacity: 0;  /* make it transparent */
+}
+#mainHeaderWrapper > div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.splide-about-this-game{
+    height:auto;
+    /* background-color:pink; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:space-around;
+    text-align: center; 
+    justify-content: space-between;
+    min-width: auto;
+    
+    /* align-items: stretch; */
+    background: linear-gradient(to right, rgba(0,0,0,0) 50%,rgba(0,0,0,0.4) 100%);
+    
+}
+.splide-about-this-game .left-col, 
+.splide-about-this-game .right-col{
+    margin: 0;
+    padding: 0;
+    padding-bottom:20px;
+}
+.splide-about-this-game .left-col{
+    min-width: 0px;
+    width:100%;
+    /* float:left; */
+}
+.splide-about-this-game .right-col{
+    min-width:0px; 
+    /* float:right;  */
+    /* background-color:rgb(1,1,1,0.5);  */
+    height:auto;
+    width: 616px;
+    width:100%;
+
+
+}
+.glance-img{
+    /* background: no-repeat url(../media/img/StoreCapsuleLarge.png)50% / 100%; */
+    /* height:158px; */
+    min-width: 0;
+    width:100%;
+}
+.glance-img > img{
+    /* display:none; */
+    min-width: 0;
+    width:100%;
+
+}
+.glance-description{
+    padding:5px;
+    font-size: 13px!important;
+}
+
+.genre-tag-box{
+    /* margin:10px; */
+    /* white-space:nowrap; */
+    height: 100%;
+    /* background-color:brown; */
+    min-width: 0;
+    user-select:none;
+}
+.genre-tag-box .actual-box{
+    /* margin:10px; */
+    min-width: 0;
+    border:10px solid rgb(0,0,0,0);
+    user-select:none;
+}
+.genre-tag-box > .actual-box > div{
+    background-color: rgba(245, 202, 103, 0.2);
+    box-shadow: none;
+    color: #dfc485;
+    cursor: pointer;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-size:15px;
+    line-height:19px;
+    margin-bottom:3px;
+    margin-right:2px;
+    max-width: 200px;
+    text-decoration-color: rgb(103, 193 245);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    border-radius:2px;
+    padding-left:2px;
+    padding-right:2px;
+    /*the width is automatic.*/
+    
+}
+a:link, a:visited {
+    color: rgb(177, 177, 177);
+} 
+a:hover, a:active{
+    color:white;
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<company>	
+	<title>Go Go Galago Games</title>
+	<founding-date>July 6, 2022</founding-date>
+	<website>http://gogogalagogames.com</website>
+	<based-in>Grenaa, Denmark</based-in>
+	
+	<press-contact>gogogalagogames@gmail.com</press-contact>
+
+
+	<socials>
+		<social>
+			<name>Twitter</name>
+			<link>https://twitter.com/gogogalagogames</link>
+		</social>
+	
+	</socials>
+
+	<description>	
+		Go Go Galago Games is a small indie-dev team made up of Mikkel Montoya and Dani Felix. They are currently hard at work on their game, CORR, which is a difficult, 2D, boss rush, Action-RPG set in a bizarre world where everything has lost the ability to truly die. 
+	</description>
+
+		
+	<histories>
+	<!--
+		<history>
+			<header>Early history</header>
+			<text>Before </text>
+		</history>
+		-->
+		<history>
+			<header>Current History</header>
+			<text>As part of their computer science studies, Dani and Mikkel were given the awesome opportunity of interning in their own Company, which lead to them founding Go Go Galago Games. Driven by their passion for all things game development, production on CORR began mid August 2022. The goal with CORR was to provide the world with the best Boss Rush game the world has seen, which continues to be their primary objective. Apart from a three month internship by Ruuben Sonn, CORR continues to be developed by a two man dev team.</text>
+		</history>
+	</histories>
+		
+		
+	<trailers>
+		<trailer>
+			<name>Announcement Trailer</name>
+			<youtube>
+				xAOTmZggdcg
+			</youtube>
+		</trailer>
+	</trailers>
+<!--
+	<awards>
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+		<award>
+			<description>Winner in this highly relevant contest.</description>
+			<info>Award Location, 20 October, 1989</info>
+		</award>
+		<award>
+			<description>Nomination for this prestigious award.</description>
+			<info>Award Ceremony, 4 December, 1991</info>
+		</award>
+	</awards>
+	 
+	-->
+
+	<!--
+	<quotes>
+		<quote>
+			<description>This is a rather insignificant quote by a highly important person.</description>
+			<name>Person Name</name>
+			<website>Website</website>
+			<link>http://www.website.com/</link>
+		</quote>
+		<quote>
+			<description>An extremely positive quote from a rather insignificant person. Also great.</description>
+			<name>Some Guy</name>
+			<website>This Page Is Visited By 12 Visitors A Month</website>
+			<link>http://geocities.blog.com/</link>
+		</quote>
+		<quote>
+			<description>I pretend to love this game even though I do not actually understand it.</description>
+			<name>Pretentious Bastard</name>
+			<website>Artsy Page</website>
+			<link>http://art.tumblr.com/</link>
+		</quote>
+		<quote>
+			<description>HOLY SHIT SO AMAZING</description>
+			<name>Caps Guy</name>
+			<website>Angry Review</website>
+			<link>http://thispage.net/angrytube</link>
+		</quote>
+	</quotes>
+	-->
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<additionals>
+		<additional>
+			<title>Extended Image press kit</title>
+			<description>Here is an extended image press kit on Google Drive: </description>
+			<link>https://drive.google.com/drive/folders/109zkMFAJkAY9g8pi-KFMN4-EMEodGPAK?usp=share_link</link>
+		</additional>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Dani Felix</person>
+			<role> Programmer, Art and Animation, Game Design, Sound and a bunch of other stuff</role>
+		<name>Twitter</name>
+			<link>https://twitter.com/gogogalagogames</link>
+		</credit>
+		<credit>
+			<person>Mikkel</person>
+			<!--
+			<website>www.olivertwist.com</website>
+			-->
+			<role>Programmer, Web development, Sound and Music Composer </role>
+		</credit>
+		<credit>
+			<person>Ruuben Sonn</person>
+			<website>https://rubj.artstation.com/</website>
+			<role>Intern, Environment and Effects Artist, Cool Dude</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>gogogalagogames@gmail.com</mail>
+		</contact>
+		<contact>
+		<name>Twitter</name>
+			<link>https://twitter.com/gogogalagogames</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>gogogalagogames.com</link>
+		</contact>
+	</contacts>
+</company>

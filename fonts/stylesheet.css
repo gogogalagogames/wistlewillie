@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Judges SC';
+    src: url('JudgesSC.woff2') format('woff2'),
+        url('JudgesSC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
