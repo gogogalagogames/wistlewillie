@@ -3,44 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>window.location.replace("https://gogogalagogames.com/corr");</script>  
+    
+    <!--css including milchimp, splide-->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
-    <meta http-equiv="refresh" content="0; url=https://gogogalagogames.com/corr">
-    <link rel="stylesheet" href="css/splide-game-highlights.css">
-
-    <link rel="stylesheet" href="css/mockup-style.css">
-    <title>CORR - Go Go Galago Games</title>
-    <link rel="stylesheet" href="plugins/Splide/splide.min.css">
-    <link rel="stylesheet" href="plugins/Splide/splide-extension-video.min.css">
-    <!-- <link rel="icon" type="image/x-icon" href="media/img/WebsiteLogo.png"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="media/img/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="media/img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="media/img/icons/favicon-16x16.png">
-    <link rel="manifest" href="media/img/icons/site.webmanifest">
+    <link rel="stylesheet" href="../css/splide-game-highlights.css">
+    <link rel="stylesheet" href="../css/mockup-style.css">
+    <link rel="stylesheet" href="../plugins/Splide/splide.min.css">
+    <link rel="stylesheet" href="../plugins/Splide/splide-extension-video.min.css">
+    
+    <title>Choo Choo Willie</title>
+    
+    <!--icons-->
+    <!-- <link type="image/x-icon" href="https://partner.steamgames.com/gfxproxy/appgfx/apps/2330260/319441675cb1d3d22b590560a690ed72d0376f79.tga" rel="shortcut icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="../media/img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../media/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../media/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="../media/img/icons/site.webmanifest"> -->
 </head>
 
 <body>
     <div class="overflow">
         <div class="hero-header">
             <video id="bg-video" muted autoplay loop>
-                <source src="media/movie.mp4" type="video/mp4" autoplay loop muted class="bg-video-source">
+                <source src="/media/video/willie-mini-trailer.mp4" type="video/mp4" autoplay loop muted class="bg-video-source">
                 <!-- <source src=./movie.ogg" type="video/ogg" autoplay loop muted class="bg-video-source"> -->
             </video>
             <div class="hero-bg">
                 <div class="hero-bg-art" id="js-boss">
                     <div class="dummy"></div>
                     <div class="protagonist">
-                        <img id="bosses-img" src="media/img/Characters.png" onContextMenu="return false;">
-                        <img id="player-bg-img" src="media/img/CenterCharacter.png" onContextMenu="return false;">
+                        <!-- <img id="bosses-img" src="../media/img/Characters.png" onContextMenu="return false;">
+                        <img id="player-bg-img" src="../media/img/CenterCharacter.png" onContextMenu="return false;"> -->
                     </div>
                     <div class="dummy"></div>
                 </div>
                 <div class="bg-logo-wrapper" id="js-logo">
-                    <div class="the-logo">
-                        <img id="logo-bg-img" src="media/img/Corr.png" alt="" onContextMenu="return false;" class="bg_art_piece1" onclick="openPage('')">
-                    </div>
+                    <a href="#about"class="the-logo">
+                        <img id="logo-bg-img" src="/media/img/WillieLogo.png" alt="" onContextMenu="return false;" class="bg_art_piece1" onclick="openPage('')">
+                    </a>
                     <div class="dummy"></div>
                     
                     <div class="dummy"></div>
@@ -48,35 +49,35 @@
             </div>
             <div id="menu">
                 <div class="menu-1-game">
-                    <img id="menu-1-img" src="media/img/front-1-game.png" alt="" onContextMenu="return false;"
+                    <img id="menu-1-img" src="/media/img/SteamPageButton.png" alt="" onContextMenu="return false;"
                         onclick="openPage('store.steampowered.com/app/2330260/')">
                     <span class="helper"></span>
                 </div>
                 <div class="menu-2-center">
                     <div class="media-buttons">
-                        <a href="https://twitter.com/gogogalagogames" target="_blank">
-                            <img src="media/img/icons/TwitterIcon.png" alt="Twitter" onContextMenu="return false;">
+                        <a href="https://bsky.app/profile/whistlewillie.bsky.social" target="_blank">
+                            <img src="/media/img/icons/Bluesky_Logo_White_3.png" alt="Bluesky" onContextMenu="return false;">
                         </a>
-                        <!-- <a href="" target="_blank">
-                            <img src="media/img/icons/MastodonIcon.png" target="_blank" alt="Mastdon">
-                        </a> -->
-                        <a href="#about"><img class="svg-image" src="media/img/arrow-down-white.svg"></a>
+                        <a href="https://twitter.com/WhistleWillie_" target="_blank">
+                            <img src="/media/img/icons/TwitterIcon.png" alt="Twitter" onContextMenu="return false;">
+                        </a>
+                        <!-- <a href="#about"><img class="svg-image" src="/media/img/arrow-down-white.svg"></a> -->
                         <a href="https://www.youtube.com/@gogogalagogames" target="_blank">
-                            <img src="media/img/icons/YoutubeIcon.png" target="_blank" alt="YouTube" onContextMenu="return false;">
+                            <img src="/media/img/icons/YoutubeIcon.png" target="_blank" alt="YouTube" onContextMenu="return false;">
                         </a>
                     </div>
                 </div>
                 <div class="menu-3-presskit">
                     <span class="helper"></span>
-                    <img id="menu-3-img" src="media/img/front-2-presskit.png" alt="" onContextMenu="return false;" onclick="openPage('gogogalagogames.com/press')">
+                    <img id="menu-3-img" src="/media/img/Press-KitButton.png" alt="" onContextMenu="return false;" onclick="openPage('spelkollektivet.com/whistlewillie/press')"> <!--http://192.168.2.110:5502/press/index.html -->
                 </div>
                 <div class="menu-4-blog">
-                    <img id="menu-4-img" src="media/img/front-3-blog.png" alt="" onclick="openPage('gogogalagogames.blogspot.com')" onContextMenu="return false;">
+                    <img id="menu-4-img" src="/media/img/News.png" alt="" onclick="openPage('whistlewillie.blogspot.com/')" onContextMenu="return false;">
                     <span class="helper"></span>
                 </div>
                 <div class="menu-6-newsletter">
                     <span class="helper"></span>
-                    <img id="menu-6-img" src="media/img/front-4-newsletter.png" alt="" onclick="document.getElementById('mailing-list').scrollIntoView();" onContextMenu="return false;">
+                    <img id="menu-6-img" src="/media/img/WebsiteNewsletter.png" alt="" onclick="document.getElementById('mailing-list').scrollIntoView();" onContextMenu="return false;">
                     <!-- <iframe id="newsletter-iframe" src = ./newsletter-signup.html" allowtransparency = "true" frameBorder="0"></iframe> -->
                 </div>
             </div>
@@ -94,27 +95,42 @@
                         <section id="image-carousel" class="splide" aria-label="Beautiful Images">
                             <div class="splide__track">
                                 <ul class="splide__list">
-                                    <li class="splide__slide" data-splide-youtube="https://www.youtube.com/watch?v=xAOTmZggdcg">
-                                        <img src="media/img/AnnVideoThumb.webp">
+                                    <li class="splide__slide" data-splide-youtube="https://www.youtube.com/watch?v=Ya36kIJiEHc">
+                                        <img src="/media/img/YouTubeThumbnail.webp">
                                       </li>
                                       <li class="splide__slide">
-                                        <a href="media/img/screenshots/GombaApproach.jpg" target="_blank">
-                                            <img src="media/img/screenshots/GombaApproach.jpg" alt="">
+                                        <a href="/media/img/screenshots/Image1.jpg" target="_blank">
+                                            <img src="/media/img/screenshots/Image1.jpg" alt="">
                                         </a>
                                     </li>
                                     <li class="splide__slide">
-                                        <a href="media/img/screenshots/CrestfallenPuking.jpg" target="_blank">
-                                            <img src="media/img/screenshots/CrestfallenPuking.jpg" alt="">
+                                        <a href="/media/img/screenshots/Image2.jpg" target="_blank">
+                                            <img src="/media/img/screenshots/Image2.jpg" alt="">
                                         </a>
                                     </li>
                                     <li class="splide__slide">
-                                        <a href="media/img/screenshots/EchoCrystalPuffAttack.jpg" target="_blank">
-                                            <img src="media/img/screenshots/EchoCrystalPuffAttack.jpg" alt="">
+                                        <a href="/media/img/screenshots/Image3.jpg" target="_blank">
+                                            <img src="/media/img/screenshots/Image3.jpg" alt="">
                                         </a>
                                     </li>
                                     <li class="splide__slide">
-                                        <a href="media/img/screenshots/EquipTalismans.png" target="_blank">
-                                            <img src="media/img/screenshots/EquipTalismans.png" alt="">
+                                        <a href="/media/img/screenshots/Image4.jpg" target="_blank">
+                                            <img src="/media/img/screenshots/Image4.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="/media/img/screenshots/Image5.jpg" target="_blank">
+                                            <img src="/media/img/screenshots/Image5.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="/media/img/screenshots/Image6.jpg" target="_blank">
+                                            <img src="/media/img/screenshots/Image6.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="/media/img/screenshots/Image7.jpg" target="_blank">
+                                            <img src="/media/img/screenshots/Image7.jpg" alt="">
                                         </a>
                                     </li>
                                     
@@ -126,19 +142,28 @@
                             <div class="splide__track">
                                 <ul class="splide__list">
                                     <li class="splide__slide">
-                                        <img src="media/img/AnnVideoThumb.webp" alt="">
+                                        <img src="../media/img/YouTubeThumbnail.webp" alt=""><!--the video-->
                                     </li>
                                     <li class="splide__slide">
-                                        <img src="media/img/screenshots/GombaApproach.jpg" alt="">
+                                        <img src="/media/img/screenshots/Image1.jpg" alt="">
                                     </li>
                                     <li class="splide__slide">
-                                        <img src="media/img/screenshots/CrestfallenPuking.jpg" alt="">
+                                        <img src="/media/img/screenshots/Image2.jpg" alt="">
                                     </li>
                                     <li class="splide__slide">
-                                        <img src="media/img/screenshots/EchoCrystalPuffAttack.jpg" alt="">
+                                        <img src="/media/img/screenshots/Image3.jpg" alt="">
                                     </li>
                                     <li class="splide__slide">
-                                        <img src="media/img/screenshots/EquipTalismans.png" alt="">
+                                        <img src="/media/img/screenshots/Image4.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="/media/img/screenshots/Image5.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="/media/img/screenshots/Image6.jpg" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="/media/img/screenshots/Image7.jpg" alt="">
                                     </li>
                                     
                                 </ul>
@@ -149,26 +174,26 @@
                     </div>
                     <div class="right-col">
                         <div class="glance-img">
-                            <img src="media/img/StoreCapsuleLarge.png" alt="">
+                            <img src="../media/img/Capsule.jpg" alt=""> <!--the capsule art-->
                         </div>
                         <br>
                         <div class="glance-description">
-                            <b>CORR</b> is a <i>DIFFICULT</i> Souls-lite Boss Rush Action RPG where you Run-n-Gun & Hack-n-Dash your way through challenging boss encounters. To endure the strange, dark and whacky world of CORR, level up and customize your warrior build with berserk powers, tonics, talismans and more.
+                            A Steamboat Willie-inspired first-person, open-world horror game. Navigate a haunting world by boat, upgrade your vessel, and arm yourself to survive. Uncover the chilling secrets needed to free the inhabitants from Willie’s relentless attacks.
                         </div>
                         <div class="genre-tag-box">
                             <div class="actual-box">
-                                <div href="">Boss Rush</div>
-                                <!-- <a href="">Boss Battle</a> -->
-                                <div href="">Hack & Slash</div>
-                                <div href="">Shoot-em-Up</div>
-                                <div href="">Souls-lite</div>
-                                <div href="">Top-Down</div>
-                                <div href="">Action-RPG</div>
-                                <div href="">Fantasy</div>
-                                <div href="">Combat</div>
-                                <div href="">Action</div>
-                                <div href="">Difficult</div>
-                                <div href="">2D</div>
+                                <div href="">Survival Horror</div>
+                                <div href="">Open World</div>
+                                <div href="">Shooter</div>
+                                <div href="">Atmospheric</div>
+                                <div href="">Psychological Horror</div>
+                                <div href="">Choices Matter</div>
+                                <div href="">Horror</div>
+                                <div href="">Thriller</div>
+                                <div href="">Nostalgia</div>
+                                <div href="">Lovecraftian</div>
+                                <div href="">Action-Adventure</div>
+                                <div href="">Jump Scare</div>
                             </div>
                             <br>
                             <!-- <br>
@@ -188,48 +213,61 @@
                         <div class="long-description">
                             <h2>MORE ABOUT THIS GAME</h2>
                             <p>
-                                <b>Plot: </b> 
-                                In the world of Zelanax, all living things has acquired immortality. This has caused the world to stagnate, and allowed for horrifying tyrants to dominate the world. Our hero, given the ability to trap the essence of living beings, becomes tasked with putting an end to eternity by killing its source, Corr.
-                           
+                                <!-- <b>General Info</b>  -->
+                                <!-- <br> -->
+                                <i>Whistle Willie</i> is an open-world survival horror game by three indie studios at Spelkollektivet, Sweden’s unique game developer hotel. Inspired by Choo-Choo Charles, <i>Whistle Willie</i> shifts mobile base exploration from railways to the vast open sea.
                             <br><br>
-                            <b>Release Date: </b> 2024.
-                <br><br>
-                <b>Price: </b> To be determined.<br><br>
-                <b>Platform: </b> Steam. <br><br>
-                <b>Store Page: </b> <a href="https://store.steampowered.com/app/2330260/" style="color:#1d9bf0;">Wishlist CORR on Steam!</a><br>
-                <br>
-                <br>
-                <iframe src="https://store.steampowered.com/widget/2330260/" frameborder="0" width="646" height="190"></iframe>
+                            <b>Release Date: </b> TBA.
+                            <br><br>
+                            <b>Price: </b> TBA.<br><br>
+                            <b>Platform: </b> Steam. <br><br>
+                            <b>Store Page: </b> <a href="https://store.steampowered.com/app/3367460/" style="color:#1d9bf0;">Wishlist Willie on Steam!</a><br>
+                            <br>
+                            <br>
+                            <iframe src="https://store.steampowered.com/widget/3367460/" frameborder="0" width="646" height="190"></iframe>
                             </p>
-                            <h2>COMBAT:</h2>
+                            
+                            <h2>Feature List:</h2>
                             <p>
                                 <ul>
                                     <li>
-                                        
+                                        Explore open-world islands filled with hidden secrets and deadly threats.
+                                    </li>
+                                    <li>
+                                        Defend yourself against Willie, the relentless steamboat spider stalking land and sea.
+                                    </li>
+                                    <li>
+                                        Upgrade your steamboat with weapons and fishing gear to survive.
+                                    </li>
+                                    <li>
+                                        Manage scarce resources - scavenge, fish, and upgrade to stay alive.
+                                    </li>
+                                    <li>
+                                        Collaborate with survivors, forging vital bonds.
+                                    </li>
+                                    <li>
+                                        Developed collaboratively by three indie teams at Spelkollektivet, Sweden’s unique game developer hotel.
                                     </li>
                                 </ul>
                             </p>
-                            <img src="media/img/ChooseBossBattleSteam2.png" alt="" style="width:100%;">
-                            <img src="media/img/AcquireNewPowers.png" alt="" style="width:100%;">
-                            <img src="media/img/UncoverTheTruth.png" alt="" style="width:100%;">
+                            <br>
                         </div>
                     </div>
                     <div class="right-col">
                         <div class="content-blog-rss stylized-block">
-                            <h3>BLOG</h3>
+                            <h3>NEWS</h3>
                                 <br>
                                 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-                                <script src="script/header-script.js"></script>
-                                <script src="plugins/Splide/splide.min.js"></script>
-                                <script src="plugins/Splide/splide-extension-video.min.js"></script>
-                                <!-- <script src=./script/youtubeScript.js"></script> -->
+                                <script src="../script/header-script.js"></script>
+                                <script src="../plugins/Splide/splide.min.js"></script>
+                                <script src="../plugins/Splide/splide-extension-video.min.js"></script>
         
-                                <script src="script/splide-code.js"></script>
+                                <script src="../script/splide-code.js"></script>
                                     <!-- start sw-rss-feed code --> 
                                     <script type="text/javascript"> 
                                         <!-- 
                                         rssfeed_url = new Array(); 
-                                        rssfeed_url[0]="https://gogogalagogames.blogspot.com/feeds/posts/default";  
+                                        rssfeed_url[0]="https://whistlewillie.blogspot.com/feeds/posts/default"; 
                                         rssfeed_frame_width="230"; 
                                         rssfeed_frame_height="260"; 
                                         rssfeed_scroll="off"; 
@@ -263,7 +301,7 @@
                                         rssfeed_item_description_link_color="#333"; 
                                         rssfeed_item_description_tag="off"; 
                                         rssfeed_no_items="0"; 
-                                        rssfeed_cache = "1855595b6b43f72917c4479933335869"; 
+                                        rssfeed_cache = "1e928651f82431c11d1a103d9bef8a14"; 
                                         //--> 
                                     </script> 
                                     <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
@@ -272,8 +310,20 @@
                             <!-- end sw-rss-feed code -->
                         </div>
                         <div class="content-twitter stylized-block">
-                            <h3>TWITTER</h3> <br>
-                            <a class="twitter-timeline" data-theme="dark" data-tweet-limit="4" data-chrome="nofooter noheader transparent noborders noscrollbar" hide_media=true data-aria-polite="assertive" data-cards="hidden" data-src-2x="false" href="https://twitter.com/gogogalagogames">Tweets by Go Go Galago Games</a>
+                            <h3>BLUESKY</h3> <br>
+                <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+
+                <bsky-embed
+                        username="whistlewillie.bsky.social"
+                        
+						mode="dark"
+						link-target="_blank"
+						link-image="false"
+						limit="5"
+						load-more="false"
+						disable-styles="false"
+						custom-styles="img.rounded-full { display: none; } .flex > div { max-width: 100%; } .whitespace-pre-wrap { word-wrap: break-word;}">
+                </bsky-embed class="twitter-timeline" data-theme="dark" data-tweet-limit="3">
                         </div>
                     </div>
                 </div>
@@ -282,14 +332,16 @@
                     <div class="test-content">
                       <div class="test-over">
                         <div id="mc_embed_signup">
-                    <p class ="provided-by-mailchimp"style ="color: white;"><i>Provided by Mailchimp. <br> Unsubscribe at anytime <a href="https://gmail.us13.list-manage.com/unsubscribe?u=4e2fccc45cd669caf8f190730&id=6ed64d7719" target="_blank">here</a></i></p>
+                            
+                            <div class="newsletterTitle">
+                                <div>NEWSLETTER</div>
+                            </div>
                             <form action="https://gmail.us13.list-manage.com/subscribe/post?u=4e2fccc45cd669caf8f190730&amp;id=6ed64d7719&amp;f_id=00a201e5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
 
                                     <div class="mc-field-group">
-                                        <label for="mce-EMAIL"><span class="asterisk"></span>
-                                        </label>
-                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                                        <label for="mce-EMAIL"><span class="asterisk"></span></label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="Enter email..." required aria-required="true" autocomplete="on">
                                     </div>
 
                                     <div id="mce-responses" class="clear foot">
@@ -307,36 +359,32 @@
                                     </div>
                                 </div>
                             </form>
+                            <p class ="provided-by-mailchimp"style ="color: white;"><i>Provided by Mailchimp. <br> Unsubscribe at anytime <a href="https://gmail.us13.list-manage.com/unsubscribe?u=4e2fccc45cd669caf8f190730&id=6ed64d7719" target="_blank">here</a></i></p>
                         </div>
-                        
                       </div>
                       <div class="test-under">
-                        <img src="media/img/NewsletterBanner.png" alt="">
+                        <img src="../media/img/Signup.png" alt="">
                     </div>
                     </div>
                   </div>
                   <div class="about-us margin stylized-block">
                     <h1>THE TEAM:</h1>
                     <br>
-                      <img src="media/img/logo_bitmap_white.png" style="width:50%">
-                      <img src="media/img/TeamImage3.png" alt="">
+                      <!-- <img src="../media/img/placeholder.jpg" style="width:50%"> -->
+                      <img src="../media/img/TeamDesaturated.png" alt="">
                       <div class="text">
-                        <h2>About the team: </h2>
+                        <h2>About the studios: </h2>
                         <br>
-                        Go Go Galago Games is a two man Game Developer based in Grenaa, Denmark.
+                        KasperDev, CANCAT Games, and Go Go Galago Games are small indie studios who are currently working on their debut games, all being published through Spelkollektivet. After collaborating during a Spelkollektivet game jam, they joined forces to work on Whistle Willie as a shared passion project in their spare time, and to turn it into a full Steam release.
                         <br>
                         <br>
-                        As part of their computer science studies, Dani and Mikkel were given the awesome opportunity of interning in their own Company, which lead to them founding Go Go Galago Games. Driven by their passion for all things game development, production on CORR began mid August 2022. The goal with CORR was to provide the world with the best Boss Rush game the world has seen, which continues to be their primary objective. Apart from a three month internship by Ruuben Sonn, CORR continues to be developed by a two man dev team.
-                        <br><br>
-                        <b>Why did you choose a Galago as mascot?</b>
                         <br>
-                        No matter how hard we try, we always end up sleeping during the day and working throughout the night. All Galago species are nocturnal, so we found it rather fitting. Also, the Galago is a pretty cool animal. Fight us!
                     </div>
                         
                   </div>
                   <br>
             </div>
-            <iframe src="https://store.steampowered.com/widget/2330260/" frameborder="0" width="646" height="190" style="width:70%; margin:0 auto; display:block;"></iframe>
+            <iframe src="https://store.steampowered.com/widget/3367460/" frameborder="0" width="646" height="190" style="width:70%; margin:0 auto; display:block;"></iframe>
             <br>
             <br>
         </div>
@@ -347,15 +395,15 @@
 
 </html>
 <footer>
-    <img src="media/img/gogo-logo.png" alt="">
-    <p>© Go Go Galago Games 2023<br></p>
-    <a href="mailto:gogogalagogames@gmail.com">gogogalagogames@gmail.com</a>
+    <img src="../media/img/spelkollektivet_logo.png" alt="">
+    <p>© Spelkollektivet 2025<br></p>
+    <a href="mailto:contactwhistlewillie@gmail.com">contactwhistlewillie@gmail.com</a>
 </footer>
 <div class="modal-backdrop fade in"></div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <script type="text/javascript" src="script/script.js"></script>
+<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+    <script type="text/javascript" src="../script/script.js"></script>
     <!-- <script type="text/javascript" src="content/js/lastfm.js"></script> -->
 
     <!-- Code injected by live-server -->
@@ -397,7 +445,7 @@
         }
         // ]]>
     </script>
-<script src="script/script.js"></script>
+<script src="../script/script.js"></script>
 <!-- <script src="splide.min.js"></script>
     <script src="splide-code.js"></script> -->
 </body>

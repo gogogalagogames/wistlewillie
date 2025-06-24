@@ -3,7 +3,7 @@ var logo = document.getElementById('js-logo');
 var video = document.getElementById('bg-video');
 // boss1.onload = function() {
 
-//     console.log("ohioh");
+//     console.log("ohioh luftens helte");
 // };
 // boss1.onerror = function() {
 //     console.log("image failed to load.");

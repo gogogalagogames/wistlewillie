@@ -19,11 +19,11 @@
 	</socials>
 
 	<description>	
-		Go Go Galago Games is a small indie-dev team made up of Mikkel Montoya and Dani Felix. They are currently hard at work on their game, CORR, which is a difficult, 2D, boss rush, Action-RPG set in a bizarre world where everything has lost the ability to truly die. 
+		A Steamboat Willie-inspired first-person, open-world horror game. Navigate a haunting world by boat, upgrade your vessel, and arm yourself to survive. Uncover the chilling secrets needed to free the inhabitants from Willie’s relentless attacks. 
 	</description>
 
 		
-	<histories>
+	<General_Info>
 	<!--
 		<history>
 			<header>Early history</header>
@@ -34,7 +34,7 @@
 			<header>Current History</header>
 			<text>As part of their computer science studies, Dani and Mikkel were given the awesome opportunity of interning in their own Company, which lead to them founding Go Go Galago Games. Driven by their passion for all things game development, production on CORR began mid August 2022. The goal with CORR was to provide the world with the best Boss Rush game the world has seen, which continues to be their primary objective. Apart from a three month internship by Ruuben Sonn, CORR continues to be developed by a two man dev team.</text>
 		</history>
-	</histories>
+	</General_Info>
 		
 		
 	<trailers>

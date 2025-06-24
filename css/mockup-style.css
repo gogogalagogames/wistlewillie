@@ -7,6 +7,14 @@
     font-display: swap;
 }
 @font-face {
+    font-family: 'Super_Cartoon';
+    src: url('/fonts/Super_Cartoon.woff2') format('woff2'),
+        url('/fonts/Super_Cartoon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'GoudyDemiBold';
     src: url('gestareg-webfont.woff');
     src: local('☺'),
@@ -80,9 +88,21 @@ html {
 
 h1 {
     font-family: 'Judges SC';
+    font-family: 'Super_Cartoon';
+    letter-spacing: 0.2rem;
     font-weight: 100;
     text-align: center;
     color:#ffffff;
+}
+.newsletterTitle{
+    font-family: 'Judges SC';
+    font-family: 'Super_Cartoon';
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    text-align: center;
+    color:#0a0a0a!important;
+    font-size:28px;
+    padding-bottom:10px;
 }
 h2 {
     /* font-family: 'Judges SC'; */
@@ -91,7 +111,7 @@ h2 {
     color:#ffffff;
     font-size:14px;
     /* padding-bottom:10px; */
-    background-image: url("../media/img/h-img-red.png");
+    background-image: url("../media/img/h-img-yellow.png");
     background-position-x:0%;
     background-position-y:100%;
     background-repeat:no-repeat;
@@ -153,7 +173,7 @@ body {
 
 body {
     /*#region argh*/
-    background-color: #1b2838;
+    /* background-color: #1b2838;
     background: rgb(18,27,38);
     background: linear-gradient(90deg, rgba(18,27,38,1) 0%, rgba(27,40,56,1) 35%, rgba(27,40,56,1) 63%, rgba(18,27,38,1) 100%);
     background: linear-gradient(90deg, rgb(38, 18, 18) 0%, rgb(56, 27, 27) 35%, rgb(56, 27, 27) 63%, rgb(38, 18, 18) 100%);
@@ -163,11 +183,11 @@ body {
     background-image: linear-gradient(90deg, rgba(31, 14, 14, 0.9) 0%, rgba(31, 14, 14, 0.9) 35%, rgba(31, 14, 14, 0.9) 63%, rgba(31, 14, 14, 0.9) 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png");
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(31, 14, 14, 0.9) 35%, rgba(31, 14, 14, 0.9) 63%, rgba(31, 14, 14, 0.9) 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png");
     background-image: linear-gradient(90deg, rgba(16, 18, 35, 0.9) 0%, rgba(22, 34, 49, 0.8) 35%, rgba(22, 34, 49, 0.8) 65%, rgba(16, 18, 35, 0.9) 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png");
-    background-image: linear-gradient(0deg, rgba(16, 7, 7, 1) 0%,  rgba(31, 14, 14, 1) 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png");
+    background-image: linear-gradient(0deg, rgba(16, 7, 7, 1) 0%,  rgba(31, 14, 14, 1) 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png"); */
     
-    background-color: #201010;
+    /* background-color: #201010; */
     /*#endregion argh*/
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-color: black;
 }
 
@@ -532,7 +552,7 @@ footer img{
 
 /*#endregion MEDIA: Buttons.*/
 
-.content-wrapper {
+.content-wrapper-old {
     width: auto;
     margin: 0 auto;
     /* text-align: center; */
@@ -550,6 +570,20 @@ footer img{
     background: linear-gradient(180deg, #482723 0%, #371b1b 6%,#371b1b 50%, #122626 90%, #122626 100%);
     background: linear-gradient(180deg, #482723 0%, #371b1b 6%,#371b1b 50%, #182534 90%, hsl(212.14deg 36.84% 14.9%) 100%);
     /* background-color:white; */
+    position:relative;
+}
+.content-wrapper {
+    width: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "Motiva Sans", Sans-serif;
+    background-color:rgba(38, 18, 18, 0.85);
+    background-color: #371b1b;
+    margin-top:20px;
+    box-shadow: 0 0 10px #000000;
+    /*Willie-style*/
+    background: linear-gradient(180deg, #353535 0%, #292929 6%,#292929 50%, #262626 90%, #262626 100%);
+    background: linear-gradient(180deg, #414141 0%, #303030 6%,#323232 50%, #292929 90%, #292929 100%);
     position:relative;
 }
 
@@ -757,31 +791,32 @@ iframe{
     left:0;
     right:0;
     bottom:0;
+    padding-left:inherit;
+    padding-right:inherit;
     /* background-color: rgba(255, 0, 0, 0.5); */
-  }
-  .test-under{
-    
   }
   .test-under img{
     width:100%;
   }
 
-
+/*============================*/
 #mc_embed_signup {
-    /* background: #888; */
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
-    /* width: 600px; */
     color: white;
-    /* background-color:rgb(0,0,0,0.5); */
+    /* background-color:rgba(0, 0, 0, 0.201); */
     overflow: hidden;
-    margin: 0 auto;
-    padding: 0;
-    width: 30%;
-    max-width: 500px;
-    
-    padding-top: 27%;
-    padding-left: 27%;
+    /* margin: 0 auto; */
+
+    /* max-width: 500px; */
+    /*Smoll mode btw*/
+    width:inherit;
+    padding-top: 14%;
+    padding-left: 9%;
+    padding-right:43%;
+}
+.validate{
+    /* background-color:#390ac52d; */
 }
 #mc_embed_signup label{
     display:none!important;
@@ -791,22 +826,22 @@ iframe{
     margin: 0 auto;
     padding: 0;
     
-    position:absolute;
+    /* position:absolute; */
     bottom:0;
     left:0;
     right:0;
     padding-bottom: 8%;
-    padding-top: 27%;
-    padding-left: 27%;
-    width: 30%;
+    padding-top: 5%;
+    /* padding-left: 18%; */
+    /* width: 30%; */
     display:none;
-    text-shadow: 0 0 5px black, 0 0 1px black, 0 0 1px black!important;
-
+    /* text-shadow: 0 0 5px black, 0 0 1px black, 0 0 1px black!important; */
+    color:rgb(37, 37, 37)!important;
 }
 .email{
     box-shadow: -2px 2px 5px -2px #ffffff, inset 0 0 10px #0000006e;
-    box-shadow: -1px 1px 5px -1px #b9a978, inset 0 0 10px #0000006e;
-    box-shadow: 0px 0px 2px 2px #c3b180, inset 0 0 10px #0000006e;
+    /* box-shadow: -1px 1px 5px -1px #b9a978, inset 0 0 10px #0000006e; */
+    /* box-shadow: 0px 0px 2px 2px #c3b180, inset 0 0 10px #0000006e; */
     background-color: #0000003c;
     border: 0px!important;
     box-sizing:border-box;
@@ -816,10 +851,9 @@ iframe{
 .required.email:focus{
     /* border-color: green; */
     outline: 0;
-    /* -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6); */
     box-shadow: 0 0 8px rgba(102, 175, 233, 0.6), inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: 0px 0px 15px 1px #ffffff,          inset 0 0 10px #0000006e;
-    box-shadow: 0px 0px 2px 2px #c3b180, inset 0 0 10px #0000006e, inset 0 0px 0px 1px white;
+    /* box-shadow: 0px 0px 2px 2px #c3b180, inset 0 0 10px #0000006e, inset 0 0px 0px 1px white; */
 
 }
 #mc-embedded-subscribe{
@@ -838,11 +872,13 @@ iframe{
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error{
     /* border:2px solid #0000004d; */
     /* box-shadow: 0px 5px 10px 0px #0000007d, inset 0px 0px 3px 0px #000000!important; */
-    box-shadow: 0px 5px 5px -1px #0000007d, inset 0px 0px 3px 0px #000000!important;
+    box-shadow: 0px 5px 5px -1px rgb(98 98 98), inset 0px 0px 3px 0px #000000!important;
     padding-top:5px;
     padding-bottom:5px;
     margin-top:0px!important;
     border-radius: 0 0 3px 3px!important;
+    width: fit-content;
+    margin: 0 auto;
 }
 #mce-responses{
     width:100%!important;
@@ -944,7 +980,7 @@ footer{
         padding: 8px 0px!important;
     }
     .provided-by-mailchimp{
-        display:initial;
+        display:block;
     }
 }
 
@@ -957,7 +993,8 @@ footer{
 /* Large (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1000px) {
     body{
-        background-image: linear-gradient(0deg, rgba(16, 7, 7, 0.9) 0%,  rgba(31, 14, 14, 0.9) 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png");
+        background-image: linear-gradient(0deg, #0b0b0be6 0%,  #161616e6 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png");
+        background-image: linear-gradient(0deg, #0b0b0be6 0%,  rgb(125 125 125) 100%), url("https://img.itch.zone/aW1nLzEwMzU4MjI4LnBuZw==/original/xijnVn.png");
     }
     .content-wrapper{
         width:1000px;
@@ -975,8 +1012,8 @@ footer{
     max-height: 100vh;
     }
     #menu > div > img{
-        filter: brightness(50%) drop-shadow(0px 0px 5px 50px #000);
-        -webkit-filter: brightness(50%) drop-shadow(0px 0px 5px #000);
+        filter: brightness(75%) drop-shadow(0px 0px 5px 50px #000);
+        -webkit-filter: brightness(75%) drop-shadow(0px 0px 5px #000);
     }
     .media-buttons{
         position: absolute;
@@ -995,7 +1032,15 @@ footer{
     #bosses-img{}
     
 
+/* Ensure placeholder text is visible */
+    input::placeholder {
+      color: #e8e8e8; /* Soft gray for good visibility */
+    }
 
+    /* Optional: Placeholder styling on focus */
+    input:focus::placeholder {
+      color: #e8e8e8;
+    }
 
     #menu {
         grid-template-columns: 1fr 1fr 1fr;
@@ -1025,13 +1070,23 @@ footer{
         width:initial;
         height:auto;
     }
+    /*=======================*/
+    .test-over{
+        padding-left:80px;
+        padding-right:425px;
+     }
     #mc_embed_signup{
-        padding-top:280px;
-        padding-left:260px;
+    width:inherit;
+    padding-top: 27%;
+    padding-left: 20%;
+    padding-right:20%;
     }
     #mc_embed_signup form{
-        margin: 20px;
-        margin-top:0px;
+        /* margin: 20px;
+        margin-top:0px; */
+    }
+    .provided-by-mailchimp{
+        padding-top: 21%;
     }
     .game-details{
         flex-direction: row;
@@ -1099,6 +1154,8 @@ footer{
     .menu-6-newsletter{
         order:5
     } */
+     
+    
 }
 
 /* Extra large (large laptops and desktops, 1200px and up) */
