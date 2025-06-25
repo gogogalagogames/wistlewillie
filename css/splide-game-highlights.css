@@ -182,8 +182,11 @@ h4 {
 }
 .genre-tag-box > .actual-box > div{
     background-color: rgba(245, 202, 103, 0.2);
+    background-color: #7e7e7e29;
+    background-color: hsla(0, 0%, 85%, 0.25);
     box-shadow: none;
     color: #dfc485;
+    color: #b2b2b2;
     /* cursor: pointer; */
     display: inline-block;
     font-family:Arial, Helvetica, sans-serif;
